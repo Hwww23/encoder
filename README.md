@@ -96,6 +96,7 @@ Decoded   : HELLO WORLD
 
 --- Non-table chars pass through ---
 Plaintext : Hello, World! 123
+Encoded   : AHello, World! 123
 Decoded   : Hello, World! 123
 
 --- Symbols and digits ---

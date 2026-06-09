@@ -53,11 +53,4 @@ public class ReferenceTable {
     public boolean contains(char c) {
         return INDEX_MAP.containsKey(c);
     }
-
-    /**
-     * Returns a copy of the underlying character array.
-     */
-    public char[] getTable() {
-        return REFERENCE.clone();
-    }
 }

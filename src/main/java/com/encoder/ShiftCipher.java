@@ -92,11 +92,4 @@ public class ShiftCipher implements Cipher {
 
         return sb.toString();
     }
-
-    /**
-     * Returns the offset character this cipher was constructed with.
-     */
-    public char getOffsetChar() {
-        return offsetChar;
-    }
 }
